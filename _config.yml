@@ -1,0 +1,134 @@
+# Site settings
+title: Axel Brando
+description: This is a collection of outstanding projects I've been working in recent years
+favicon: /iCard-Resume/assets/img/avatar.JPG
+baseurl: http://axelbrando.github.io/
+url: http://axelbrando.github.io
+rss_url: /iCard-Resume/pages/atom.xml
+
+# Build settings
+markdown: kramdown
+
+# Author settings
+author:
+  name: Axel Brando
+  title: Computer Scientist and Mathematician
+  address: Barcelona
+  email: axelbrando@ub.edu
+  link: http://axelbrando.github.io
+  weibo:
+  github: axelbrando
+  #linkedin: -
+  #twitter: -
+  gavatar: /iCard-Resume/assets/img/avatar.JPG
+  workHistory:
+    - work1:
+      company: DataScienceUB group, Universitat de Barcelona (UB)
+      location: Barcelona
+      title: Course assistant in the <a href="http://www.ub.edu/datascience/deep/">Deep Learning from Scratch:</a> A short Course
+      started: 2016
+      duration: (2016)
+      description: <p> Content review. </p><p>Teacher assistant during sessions.</p><p>Preparation and explanation of the theoretical and practical content of style transfer of images by using neural networks.</p>
+
+    - work2:
+      company: Universitat de Barcelona (UB)
+      location: Barcelona
+      title: Scholarship collaboration with the department of Applied Mathematics and Analysis
+      started: 2015
+      duration: (2015-2016)
+      description: <p> Design and experimentation in new databases. </p><p>Building of new models of deep learning by using Caffe and TensorFlow.</p><p>Introducing to new techniques such as Style Transfer Image, Hallucinations, Dreaming by using deep learning algorithms.</p>
+
+    - work3:
+      company: Universitat Politécnica de Catalunya (UPC), IBM
+      location: Barcelona
+      title: Research and experimental development on deep learning techniques
+      started: 2015
+      duration: (2015-2016)
+      description: <p>Techniques to reconstruct the input by using the activations of the neural network. </p>
+
+    - work4:
+      company: Universitat de Barcelona (UB)
+      location: Barcelona
+      title: Building and training artificial deep learning techniques by using Caffe
+      started: 2015
+      duration: (2015)
+      description: <p>Building a new model of deep learning improving the results obtained in my final degree dissertation.</p>
+
+
+#    - work1:
+#      company: Universitat de Barcelona (UB)
+#      location: Barcelona
+#      title: Java Developer
+#      started: 2014
+#      duration: (2014 - Present)
+#      description: 
+
+#    - work1:
+#      company: Finzsoft Solutions Ltd
+#      location: Auckland, New Zealand
+#      title: Java Developer
+#      started: 2014
+#      duration: (2014 - Present)
+#      description: We present the next notebook <p></p> <div class="notebook"><iframe width="640" height="360" src="http://axelbrando.github.io/Untitled.html" frameborder="0" allowfullscreen></iframe></div> I am not a description. <p> I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+#    - work2:
+#      company: Agfa HealthCare
+#      location: Shanghai, China
+#      title: Java Developer
+#      started: 2012
+#      duration: (2012 - 2014)
+#      description: I am not a description.Això és una prova am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+#    - work3:
+#      company: Citigroup Services and Technology (China) Limited
+#      location: Shanghai, China
+#      title: Java Developer
+#      started: 2009
+#      duration: (2009 - 2012)
+#      description:  <a href="http://axelbrando.github.io/">Visit our HTML tutorial</a>  I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. Ihhhham not description.I am not description.
+  educationHistory:
+    - education1:
+      organization: Universitat de Barcelona (UB), Universitat Politècnica de Catalunya (UPC), Universitat Rovira i Virgili (URV).
+      degree: Master's Degree
+      major: Artificial Intelligence
+      started: 2015
+      duration: (2015 - Present)
+      description: Master in Artificial Intelligence
+    - education2:
+      organization: Universitat de Barcelona (UB)
+      degree: Bachelor's Degree
+      major: Computer Engineering
+      started: 2009
+      duration: (2009 - 2015)
+      description: Dual EHEA bachelor's degree courses in Mathematics and in Computer Engineering
+    - education3:
+      organization: Universitat de Barcelona (UB)
+      degree: Bachelor's Degree
+      major: Mathematics
+      started: 2009
+      duration: (2009 - 2015)
+      description: Dual EHEA bachelor's degree courses in Mathematics and in Computer Engineering
+  #languages:
+  #  - language1:
+  #    name: Chinese
+  #    proficiency: Native
+  #  - language2:
+  #    name: English
+  #    proficiency: Professional
+  #  - language3:
+  #    name: Japanese
+  #    proficiency: Limit
+#  programmingSkills:
+#    - skill1:
+#      name: Google's Food-101 Resolution*
+#      percentage: 79%
+#    - skill2:
+#      name: Food-101, MDN1-VGG16  <a href="#" class="btn btn-default"><i class="icon-file icon-white"></i>.caffemodel</a>  <a href="#" class="btn btn-#default"><i class="icon-file icon-white"></i>.solverstate</a>
+#      percentage: 77.16%
+#    - skill3:
+#      name: AlexNet FT applied to Food-101* #JavaScript  <a href="#" class="btn btn-primary"><i class="icon-file icon-white"></i> Download.pdf</a>
+#      percentage: 56.40%
+#    - skill4:
+#      name: AngularJS
+ #     percentage: 80%
+    #- skill5:
+    #  name: Java/Java EE
+    #  percentage: 90%
