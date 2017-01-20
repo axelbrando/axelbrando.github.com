@@ -1,6 +1,6 @@
 # Site settings
 title: Axel Brando
-description: This is a collection of outstanding projects I've been working in recent years
+description: Computer Scientist and Mathematician. This is a collection of outstanding projects I have been working in recent years.
 favicon: /iCard-Resume/assets/img/avatar.JPG
 baseurl: http://axelbrando.github.io/
 url: http://axelbrando.github.io
@@ -22,7 +22,24 @@ author:
   #twitter: -
   gavatar: /iCard-Resume/assets/img/avatar.JPG
   workHistory:
+
     - work1:
+      company: IIIA - CSIC (Artificial Intelligence Research Institute)
+      location: Bellaterra
+      title: Big Data / Machine Learning research developer
+      started: 2017
+      duration: (2017-present)
+      description: <p> Collaborating in support tasks with the university teachers.</p>
+
+    - work2:
+      company: Universitat de Barcelona (UB)
+      location: Barcelona
+      title: Scholarship collaboration AAD with the department of Applied Mathematics and Analysis
+      started: 2016
+      duration: 2016
+      description: <p> Collaborating in support tasks with the university teachers.</p>
+
+    - work3:
       company: DataScienceUB group, Universitat de Barcelona (UB)
       location: Barcelona
       title: Course assistant in the <a href="http://www.ub.edu/datascience/deep/">Deep Learning from Scratch:</a> A short Course
@@ -30,7 +47,7 @@ author:
       duration: (2016)
       description: <p> Content review. </p><p>Teacher assistant during sessions.</p><p>Preparation and explanation of the theoretical and practical content of style transfer of images by using neural networks.</p>
 
-    - work2:
+    - work4:
       company: Universitat de Barcelona (UB)
       location: Barcelona
       title: Scholarship collaboration with the department of Applied Mathematics and Analysis
@@ -38,15 +55,15 @@ author:
       duration: (2015-2016)
       description: <p> Design and experimentation in new databases. </p><p>Building of new models of deep learning by using Caffe and TensorFlow.</p><p>Introducing to new techniques such as Style Transfer Image, Hallucinations, Dreaming by using deep learning algorithms.</p>
 
-    - work3:
-      company: Universitat Politécnica de Catalunya (UPC), IBM
+    - work5:
+      company: Barcelona Super-Computing Center (BSC)
       location: Barcelona
       title: Research and experimental development on deep learning techniques
       started: 2015
       duration: (2015-2016)
       description: <p>Techniques to reconstruct the input by using the activations of the neural network. </p>
 
-    - work4:
+    - work6:
       company: Universitat de Barcelona (UB)
       location: Barcelona
       title: Building and training artificial deep learning techniques by using Caffe
