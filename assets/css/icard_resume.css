@@ -33,14 +33,6 @@ a {
     background-color: #444444;
 }
 
-.footer {
-    padding: 20px 0;
-    text-align: center;
-    color: #f0f0f0;
-    background-color: #575757;
-    background-color: rgba(0, 0, 0, 0.6);
-}
-
 hr {
     border: 0;
     border-top: 1px solid #ccc;

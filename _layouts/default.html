@@ -1,20 +1,80 @@
 <!DOCTYPE html>
 <html>
+  <head>
+        <!-- // http://lists.evolt.org/archive/Week-of-Mon-20040202/154813.html -->
+	<script type="text/javascript">
+	    function gen_ma(pre,d,post,n) {
+		document.write(pre);
+		//document.write("\"mai");
+		//document.write("lto:" + n + "@");
+		//document.write(d + "\">" + n+"@");
+		//document.write(d + post);
+		document.write(n+" _at_ ");
+		document.write(d + post);
+	    }
+	    function gen_ma_sim(pre,d,post,n) {
+		document.write(pre);
+		document.write("\"mai");
+		document.write("lto:" + n + "@");
+		document.write(d + post);
+	    }
+	</script>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
-  {% include head.html %}
+    <link rel="stylesheet" href="{{ "/assets/css/bootstrap.min.css" | prepend: site.baseurl }}">
+ <link rel="stylesheet" href="{{ "/assets/css/icard_resume.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/assets/css/font-awesome.min.css" | prepend: site.baseurl }}">
+
+
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.shortbio }}</title>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.shortbio }}" href="{{ site.baseurl }}/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
 
   <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
-    {% include header.html %}
+          <div class="site-info">
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <p class="site-description">{{ site.shortbio }}</p>
+            <p class="site-email"><script type="text/javascript"> gen_ma('<a>','{{ site.footer-links.emailpos }}','</a>','{{ site.footer-links.emailpre }}')</script><noscript>{{ site.footer-links.emailpre }}{{ site.footer-links.emailpos }}</noscript></p>
+          </div>
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+          <nav>
+            {% if site.posts.size > 0 %}
+               <a href="{{ site.baseurl }}/">Blog</a>
+               <a href="{{ site.baseurl }}/about">About</a>
+            {% else %}
+	    {% endif %}
+          </nav>
+        </header>
       </div>
     </div>
 
-    {% include footer.html %}
-	{% include googleanalytics.html %}
-  </body>
+    <div id="main" role="main" class="container">
+      {{ content }}
+    </div>
 
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          {% include svg-icons.html %}
+        </footer>
+      </div>
+    </div>
+
+    {% include analytics.html %}
+  </body>
 </html>

@@ -1,34 +1,111 @@
-# Site settings
-title: Axel Brando
+#
+# This file contains configuration flags to customize your site
+#
+
+# Name of your site (displayed in the header)
+name: Axel Brando
+
+# Short bio or description (displayed in the header)
+shortbio: Computer Scientist and Mathematician
 description: Computer Scientist and Mathematician. This is a collection of outstanding projects I have been working in recent years.
-favicon: /iCard-Resume/assets/img/avatar.JPG
-baseurl: http://axelbrando.github.io/
-url: http://axelbrando.github.io
-rss_url: /iCard-Resume/pages/atom.xml
 
-# Build settings
-markdown: kramdown
+# Email Adress
+##email: axelbrando _at_ ub.edu
 
-# Author settings
-author:
-  name: Axel Brando
-  title: Computer Scientist and Mathematician
-  address: Barcelona
-  email: axelbrando@ub.edu
-  link: http://axelbrando.github.io
-  weibo:
+# URL of your avatar or profile pic (you could use your GitHub profile pic)
+avatar: https://avatars3.githubusercontent.com/u/14802914?v=3&s=460 #images/avatar.jpg
+
+#
+# Flags below are optional
+#
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  dribbble:
+  emailpre: axelbrando
+  emailpos: ub.edu
+  facebook:
+  flickr:
   github: axelbrando
-  #linkedin: -
-  #twitter: -
-  gavatar: /iCard-Resume/assets/img/avatar.JPG
+  instagram:
+  linkedin:
+  pinterest:
+  rss: # just type anything here for a working RSS icon
+  twitter: 
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/
+
+
+# Enter your Disqus shortname (not your username) to enable commenting on posts
+# You can find your shortname on the Settings page of your Disqus account
+disqus: axeldisqus
+
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics: UA-101022346-1
+
+# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
+# Used for Sitemap.xml and your RSS feed
+url: http://axelbrando.github.io
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (http://yourusername.github.io/repository-name)
+# and NOT your User repository (http://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+baseurl: ""
+
+#
+# !! You don't need to change any of the configuration flags below !!
+#
+
+permalink: /:title/
+
+# The release of Jekyll Now that you're using
+version: v1.2.0
+
+# Jekyll 3 now only supports Kramdown for Markdown
+kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
+  input: GFM
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :expanded # You might prefer to minify using :compressed
+
+# Use the following plug-ins
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+
+author:
   workHistory:
+    - work0:
+      company: BBVA Data & Analytics S.L. - Universitat de Barcelona (UB)
+      location: Barcelona
+      title: Data Scientist Industrial PhD student
+      started: 2017
+      duration: (2017-present)
+      description: <p> Large-scale machine learning for financial recommender systems.</p>
 
     - work1:
       company: IIIA - CSIC (Artificial Intelligence Research Institute)
       location: Bellaterra
       title: Big Data / Machine Learning research developer
       started: 2017
-      duration: (2017-present)
+      duration: (2017)
       description: <p> Research developer in a industrial research project.</p>
 
     - work2:
@@ -36,7 +113,7 @@ author:
       location: Barcelona
       title: Scholarship collaboration AAD with the department of Applied Mathematics and Analysis
       started: 2016
-      duration: 2016
+      duration: (2016)
       description: <p> Collaborating in support tasks with the university teachers.</p>
 
     - work3:
@@ -71,81 +148,25 @@ author:
       duration: (2015)
       description: <p>Building a new model of deep learning improving the results obtained in my final degree dissertation.</p>
 
-
-#    - work1:
-#      company: Universitat de Barcelona (UB)
-#      location: Barcelona
-#      title: Java Developer
-#      started: 2014
-#      duration: (2014 - Present)
-#      description: 
-
-#    - work1:
-#      company: Finzsoft Solutions Ltd
-#      location: Auckland, New Zealand
-#      title: Java Developer
-#      started: 2014
-#      duration: (2014 - Present)
-#      description: We present the next notebook <p></p> <div class="notebook"><iframe width="640" height="360" src="http://axelbrando.github.io/Untitled.html" frameborder="0" allowfullscreen></iframe></div> I am not a description. <p> I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
-#    - work2:
-#      company: Agfa HealthCare
-#      location: Shanghai, China
-#      title: Java Developer
-#      started: 2012
-#      duration: (2012 - 2014)
-#      description: I am not a description.Això és una prova am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
-#    - work3:
-#      company: Citigroup Services and Technology (China) Limited
-#      location: Shanghai, China
-#      title: Java Developer
-#      started: 2009
-#      duration: (2009 - 2012)
-#      description:  <a href="http://axelbrando.github.io/">Visit our HTML tutorial</a>  I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. Ihhhham not description.I am not description.
   educationHistory:
     - education1:
       organization: Universitat de Barcelona (UB), Universitat Politècnica de Catalunya (UPC), Universitat Rovira i Virgili (URV).
       degree: Master's Degree
       major: Artificial Intelligence
-      started: 2015
-      duration: (2015 - Present)
+      started: 2017
+      duration: (2015 - 2017)
       description: Master in Artificial Intelligence
     - education2:
       organization: Universitat de Barcelona (UB)
       degree: Bachelor's Degree
       major: Computer Engineering
-      started: 2009
+      started: 2015
       duration: (2009 - 2015)
-      description: Dual EHEA bachelor's degree courses in Mathematics and in Computer Engineering
+      description: Dual EHEA Bachelor's Degree in Mathematics and Computer Engineering
     - education3:
       organization: Universitat de Barcelona (UB)
       degree: Bachelor's Degree
       major: Mathematics
-      started: 2009
+      started: 2015
       duration: (2009 - 2015)
-      description: Dual EHEA bachelor's degree courses in Mathematics and in Computer Engineering
-  #languages:
-  #  - language1:
-  #    name: Chinese
-  #    proficiency: Native
-  #  - language2:
-  #    name: English
-  #    proficiency: Professional
-  #  - language3:
-  #    name: Japanese
-  #    proficiency: Limit
-#  programmingSkills:
-#    - skill1:
-#      name: Google's Food-101 Resolution*
-#      percentage: 79%
-#    - skill2:
-#      name: Food-101, MDN1-VGG16  <a href="#" class="btn btn-default"><i class="icon-file icon-white"></i>.caffemodel</a>  <a href="#" class="btn btn-#default"><i class="icon-file icon-white"></i>.solverstate</a>
-#      percentage: 77.16%
-#    - skill3:
-#      name: AlexNet FT applied to Food-101* #JavaScript  <a href="#" class="btn btn-primary"><i class="icon-file icon-white"></i> Download.pdf</a>
-#      percentage: 56.40%
-#    - skill4:
-#      name: AngularJS
- #     percentage: 80%
-    #- skill5:
-    #  name: Java/Java EE
-    #  percentage: 90%
+      description: Dual EHEA Bachelor's Degree in Mathematics and Computer Engineering
