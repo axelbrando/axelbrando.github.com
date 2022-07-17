@@ -32,4 +32,3 @@ Stay tuned via social networks!
 
 Thank you all.
 Best Regards,
-
