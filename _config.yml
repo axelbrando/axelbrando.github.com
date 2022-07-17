@@ -94,6 +94,14 @@ author:
   workHistory:
 
     - work0:
+      company: Universitat de Barcelona (UB) - BBVA AI Factory
+      location: Barcelona
+      title: Industrial PhD Disseration Defense
+      started: 2022
+      duration: Mon 18th of July, 2022
+      description: <p>Today, I am glad to announce I will be defending my Industrial PhD Dissertation.</p>![Cover]({{ site.baseurl }}/images/PhDDefenseCover.png)<p></p><p>Abstract: <font size="3"> Uncertainty is always around us. Every decision we take has an associated likelihood of success and decisions made by autonomous systems are not an exception. Despite the great advances in the field of artificial intelligence, the inability of these systems to identify a higher risk scenario a priori could prevent their inclusion as part of solutions to many real problems. This is why it is essential that these systems learn how to model and deal with uncertainty. Starting from a probabilistic approach, this thesis proposes to formalize the different types of uncertainty and, in particular, focus its research on one type of uncertainty, the aleatoric uncertainty, since it is detected as the main uncertainty for the financial real-world problem that motivates this doctorate. Based on such research, the thesis proposes new models to improve the state of the art in modeling such uncertainty as well as introduces a new real problem that appears when there is a fixed predictive system that does not model uncertainty and we want to model uncertainty a posteriori, without changing the original model. This problem will be denoted as the modeling of the uncertainty of a black box system and will motivate the proposal of new models specialized in maintaining the predictive advantages, such as Quantile Regression (QR), but for the black box problem. Subsequently, the QR research will motivate the proposal of new models to solve a QR literature problem known as the crossing quantile phenomena, which appears when different quantiles are predicted simultaneously and they do not preserve their correct order with respect to their quantile value. Finally, all of the above research will be summarized in visualization and evaluation methods for the predicted uncertainty to produce uncertainty-tailored methods.</font></p><p></p><p></p><p></p>A first copy of the dissertation can be found here: <a href="https://drive.google.com/uc?export=download&id=1pVOkLg18d7pj9rKbtGESYbtADyT2U0VV">BrandoAxel_AleatoricUncertainty.pdf</a></p><p></p><p></p><p>Soon, we will: (1) Add the formal information to reference its content. (2) Update this blog for a web version of the PhD dissertation. (3) Publish new related results. </p><p>Stay tuned via social networks!</p><p>Thank you all.</p><p>Best Regards</p>
+
+    - work1:
       company: Barcelona Supercomputing Center (BSC)
       location: Barcelona
       title: Research Engineer (RE2)
@@ -101,7 +109,7 @@ author:
       duration: (2020-present)
       description: <p>Research and risk analysis for safety-critical real-time systems based on Machine Learning techniques.</p>
 
-    - work1:
+    - work2:
       company: BBVA Data & Analytics S.L. - Universitat de Barcelona (UB)
       location: Barcelona
       title: Data Scientist Industrial PhD student
@@ -109,7 +117,7 @@ author:
       duration: (2017-present)
       description: <p> Research about Uncertainty Modelling by using Deep Learning motivated by the bank problems. </p><p>...</p><p>2020-06-04 -- Journal article about <a href="https://ieeexplore.ieee.org/document/9131769">Building uncertainty models on top of black-box predictive APIs</a>.</p><p>2019-12-11 -- NeurIPS'19 presentation of the article 'Modelling heterogeneous distributions with an Uncountable Mixture of Asymmetric Laplacians' (UMAL). <a href="https://arxiv.org/abs/1910.12288">Article</a>, <a href="https://github.com/BBVA/UMAL">Code repo</a>, <a href="https://vimeo.com/369179175/a17d3de911">Video</a>. Introduced <a href="https://www.bbva.com/es/como-ensenar-a-la-inteligencia-artificial-a-decir-no-estoy-seguro/">here</a> and <a href="https://retina.elpais.com/retina/2019/12/20/innovacion/1576838697_328758.html?ssm=TW_CC">here</a>.</p></p><p>2019-10-01 -- Fall'19 BCN.ai.  <a href="https://w.tame.events/e/89635027"> Presentation about Aleatoric Uncertainty Modelling by using UMAL</a>.</p><p></p><p>2018-09-10 -- Regarding the aggregated time-series financial forecasting system the article entitled <a href="http://arxiv.org/abs/1807.09011">'Uncertainty Modelling in Deep Networks Forecasting; Short and Noisy Series'</a> was presented at the Applied Data Science Track of ECML-PKDD 2018 and <a href="https://www.bbvadata.com/es/improving-predictions-in-deep-learning-by-modelling-uncertainty-2/">here</a>. The proposed model was afterwards used in the <a href="https://www.bbvadata.com/white_papers/advanced_ai.pdf">White Paper (collaboration between Google Cloud - BBVA Data Analytics)</a> and introduced <a href="https://www.bbvadata.com/es/bayesian-deep-learning-meets-google-cloud-for-a-better-forecasting-engine-at-bbva/">here</a> and <a href="https://www.bbva.com/es/bbva-y-google-cloud-desarrollan-un-modelo-de-ia-para-mejorar-la-prediccion-de-gastos-e-ingresos/">here</a>.</p><p></p><p>2018-05-13 -- First BCN.ai session, presenting <a href="https://w.tame.events/e/3177403">how to model all kinds of uncertainties by using a Deep Learning model</a>.</p><p></p><p>2018-03-14 -- BGSMath Presentation about <a href="http://doctoratsindustrials.gencat.cat/ca/events/view/108">Large-scale machine learning for financial recommender systems</a>.</p><p></p>
 
-    - work2:
+    - work3:
       company: IIIA - CSIC (Artificial Intelligence Research Institute)
       location: Bellaterra
       title: Big Data / Machine Learning research developer
@@ -117,7 +125,7 @@ author:
       duration: (2017)
       description: <p> Research developer in a industrial research project.</p>
 
-    - work3:
+    - work4:
       company: Universitat de Barcelona (UB)
       location: Barcelona
       title: Scholarship collaboration AAD with the department of Applied Mathematics and Analysis
@@ -125,7 +133,7 @@ author:
       duration: (2016)
       description: <p> Collaborating in support tasks with the university teachers.</p>
 
-    - work4:
+    - work5:
       company: DataScienceUB group, Universitat de Barcelona (UB)
       location: Barcelona
       title: Course assistant in the <a href="http://www.ub.edu/datascience/deep/">Deep Learning from Scratch:</a> A short Course
@@ -133,7 +141,7 @@ author:
       duration: (2016)
       description: <p> Content review. </p><p>Teacher assistant during sessions.</p><p>Preparation and explanation of the theoretical and practical content of style transfer of images by using neural networks.</p>
 
-    - work5:
+    - work6:
       company: Universitat de Barcelona (UB)
       location: Barcelona
       title: Scholarship collaboration with the department of Applied Mathematics and Analysis
@@ -141,7 +149,7 @@ author:
       duration: (2015-2016)
       description: <p> Design and experimentation in new databases. </p><p>Building of new models of deep learning by using Caffe and TensorFlow.</p><p>Introducing to new techniques such as Style Transfer Image, Hallucinations, Dreaming by using deep learning algorithms.</p>
 
-    - work6:
+    - work7:
       company: Barcelona Super-Computing Center (BSC)
       location: Barcelona
       title: Research and experimental development on deep learning techniques
@@ -149,7 +157,7 @@ author:
       duration: (2015-2016)
       description: <p>Techniques to reconstruct the input by using the activations of the neural network. </p>
 
-    - work7:
+    - work8:
       company: Universitat de Barcelona (UB)
       location: Barcelona
       title: Building and training artificial deep learning techniques by using Caffe
